@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "auto-retry-http-decorator"
+version = "0.1.0"
+description = "A decorator library that automatically retries failed HTTP requests."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+packages = [{ include = "auto_retry_http_decorator" }]
+
+[tool.poetry.dependencies]
+requests = "^2.26.0"
+tenacity = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-mock = "^3.7.0"
